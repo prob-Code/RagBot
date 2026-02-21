@@ -12,7 +12,7 @@ st.write("Upload your C++ document and ask questions about it")
 
 @st.cache_resource
 def load_vectorstore():
-    loader = TextLoader("c++_introduction.txt", encoding="utf-8")
+    loader = TextLoader("C++_Introduction.txt", encoding="utf-8")
     data = loader.load()
 
     text_splitter = RecursiveCharacterTextSplitter(
