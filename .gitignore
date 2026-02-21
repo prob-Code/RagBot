@@ -1,0 +1,78 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ========================
+# Virtual Environments
+# ========================
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================
+# Streamlit Cache
+# ========================
+.streamlit/
+
+# ========================
+# FAISS / Vector Store Cache
+# ========================
+faiss_index/
+*.faiss
+*.pkl
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+*.env
+secrets.toml
+config.toml
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDEs & Editors
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+# ========================
+# Logs & Temp Files
+# ========================
+*.log
+*.tmp
+*.bak
+*.csv
+
+# ========================
+# Data & Large Files
+# ========================
+*.pdf
